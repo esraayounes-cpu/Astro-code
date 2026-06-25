@@ -4,8 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "galaxy_sed"
-version = "0.0.3"
-
+version = "0.0.4"
+description = "A Python package for loading, processing, and visualizing galaxy spectral energy distributions from SDSS data."
+readme = "README.md"
+authors = [
+  {name = "Esraa Younes"},
+  {name = "Maria Atef"}
+]
 dependencies = [
  "numpy", 
  "pandas",
