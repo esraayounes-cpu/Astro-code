@@ -5,10 +5,11 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../sed_plot.py/'))
+sys.path.insert(0, os.path.abspath('../galaxy_sed/'))
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+
 
 project = 'galaxy_sed'
 copyright = '2026, Esraa Younes , Maria Atef'

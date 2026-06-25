@@ -10,7 +10,7 @@ Welcome to galaxy_sed's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   sed_plot.rst
+   galaxy_sed.rst
 
 
 

@@ -1,7 +1,7 @@
 """Master loader for SDSS data"""
 
-from .load_sdss_fits import load_sdss_fits
-from .convert_photometry import convert_sdss_photometry
+from .data import load_sdss_fits
+from .data import convert_sdss_photometry
 
 def load_sdss(input_data, **kwargs):
     """
