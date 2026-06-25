@@ -1,9 +1,25 @@
 Metadata-Version: 2.4
 Name: galaxy_sed
-Version: 0.0.3
+Version: 0.0.4
+Summary: A Python package for loading, processing, and visualizing galaxy spectral energy distributions from SDSS data.
+Author: Esraa Younes, Maria Atef
+Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 Requires-Dist: numpy
 Requires-Dist: pandas
 Requires-Dist: matplotlib
 Requires-Dist: astropy
 Dynamic: license-file
+
+`galaxy_sed` is a Python package for loading, processing, and visualizing galaxy spectral energy distributions (SEDs), with a focus on SDSS photometric and spectroscopic data.
+
+## Features
+- Load SDSS FITS and photometric data
+- Store SDSS filter information (`u`, `g`, `r`, `i`, `z`)
+- Convert SDSS photometry into fluxes suitable for SED analysis
+- Plot galaxy SEDs
+
+
+## Installation
+
+pip install galaxy_sed
