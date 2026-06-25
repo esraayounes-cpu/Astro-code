@@ -1,6 +1,6 @@
 import os
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 from .loadData_sdss import load_sdss
 from .sed_filters import SDSS_FILTERS
