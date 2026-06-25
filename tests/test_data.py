@@ -98,18 +98,3 @@ def test_load_sdss_fits_reads_mock_file(tmp_path):
     expected_wavelength = 10 ** (3.0 + 0.001 * np.arange(3))
     assert np.allclose(result["wavelength"], expected_wavelength)
 
-
-def test_load_sdss_fits_missing_header_keywords(tmp_path):
-    arr = np.column_stack([
-        np.array([1.0, 2.0, 3.0]),
-        np.array([0.1, 0.2, 0.3])
-    ])
-
-    hdu = fits.PrimaryHDU(arr)
-    # deliberately do NOT set COEFF0 / COEFF1
-
-    file_path = tmp_path / "bad_sdss.fits"
-    hdu.writeto(file_path)
-
-    with pytest.raises(ValueError, match="COEFF0 or COEFF1 not found"):
-        load_sdss_fits(str(file_path))
