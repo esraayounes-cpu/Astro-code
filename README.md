@@ -1,5 +1,4 @@
-[![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)]
-(https://semaphorep.github.io/codeastro/)
+[![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
 
 `galaxy_sed` is a Python package for loading, processing, and visualizing galaxy spectral energy distributions (SEDs), with a focus on SDSS photometric and spectroscopic data.
 
