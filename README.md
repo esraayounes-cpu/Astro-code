@@ -12,4 +12,6 @@
 pip install galaxy_sed
 
 
-[![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
+[![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/) ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![PyPI](https://img.shields.io/pypi/v/galaxy-sed)
+![License](https://img.shields.io/badge/License-MIT-green)
