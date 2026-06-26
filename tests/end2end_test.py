@@ -21,7 +21,7 @@ def test_complete_photometry_workflow():
     })
 
     # Step 1: Load and convert
-    sed = loadData_sdss(df)
+    sed = load_sdss(df)
 
     # Step 2: Verify output
     assert len(sed) == 5
